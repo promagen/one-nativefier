@@ -15,12 +15,43 @@ npm install -g nativefier
     nativefier 'localhost'
 
 
+
+1. Środowisko - .apitee
++ pobranie
++ uruchomienie
++ aktualizacja
+
+2. Kod - .apifork
++ pobranie
++ aktualizacja
+
+
+3. Aplikacja - .apibuild
++ przygotowanie modułów, bibliotek
++ kompilacja, budowanie kodu
+
+
+4. uruchomienie aplikacji -  apiexec
+start
+stop
+
+
+uruchamianie
+
+
+
 # First Steps with .apicra
 
 ## on linux
 
 ### install
     sh .apicra/install
+
+
+### .apicra
+
+    sh .apicra/update
+
 
 
 ### .apiexec
@@ -34,6 +65,7 @@ stop application
 
 ### open in browser
     sh .apicra/browser
+
 
 ## on windows
 
