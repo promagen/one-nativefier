@@ -1,0 +1,4 @@
+#!/bin/bash
+#.apifork/update
+echo "I will update git repository of application ..."
+cd one && git pull origin master && cd ..

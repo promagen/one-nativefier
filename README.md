@@ -14,12 +14,21 @@ npm install -g nativefier
 
     nativefier 'localhost'
 
+## API foundation
 
+.promagen - web management dla devops
+.apicra - skrypty do instalacji env
+.apifunc - funkcje, implementacja apiunit
+.apiunit - metadane potrzebne do stworzenia aplikacji
+.apibuild - budowanie plaikacji, deployment
+
+---
 
 1. Środowisko - .apitee
 + pobranie
 + uruchomienie
 + aktualizacja
+
 
 2. Kod - .apifork
 + pobranie
@@ -28,13 +37,27 @@ npm install -g nativefier
 
 3. Aplikacja - .apibuild
 + przygotowanie modułów, bibliotek
-+ kompilacja, budowanie kodu
++ kompilacja, budowanie kodu aplikacji
 
 
-4. uruchomienie aplikacji -  apiexec
-start
-stop
+4. Uruchomienie aplikacji -  .apiexec
++ start
++ stop
 
+
+---
+
+Kod - .apifork
+
+    sh .apifork/download
+
+Uruchomienie aplikacji -  .apiexec
+    
+    sh .apiexec/start
+
+    sh .apiexec/stop
+
+---
 
 uruchamianie
 
@@ -80,10 +103,4 @@ stop application
     .apicra\browser.bat
 
 
-## API foundation
 
-.promagen - web management dla devops
-.apicra - skrypty do instalacji env
-.apifunc - funkcje, implementacja apiunit
-.apiunit - metadane potrzebne do stworzenia aplikacji
-.apibuild - budowanie plaikacji, deployment
